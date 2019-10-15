@@ -1,8 +1,9 @@
 package network
 
 import (
-	"consensusPBFT/pbft/consensus"
 	"fmt"
+
+	"github.com/gowork/consensus"
 )
 
 func LogMsg(msg interface{}) {

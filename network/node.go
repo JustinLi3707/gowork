@@ -1,11 +1,12 @@
 package network
 
 import (
-	"consensusPBFT/pbft/consensus"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"time"
+
+	"github.com/gowork/consensus"
 )
 
 type Node struct {

@@ -1,8 +1,9 @@
 package main
 
 import (
-	"consensusPBFT/pbft/network"
 	"os"
+
+	"github.com/gowork/network"
 )
 
 func main() {

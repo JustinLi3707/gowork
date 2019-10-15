@@ -2,10 +2,11 @@ package network
 
 import (
 	"bytes"
-	"consensusPBFT/pbft/consensus"
 	"encoding/json"
 	"fmt"
 	"net/http"
+
+	"github.com/gowork/consensus"
 )
 
 type Server struct {
